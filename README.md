@@ -37,3 +37,7 @@ npm install firebase @angular/fire --save
 https://github.com/angular/angularfire
 
 https://github.com/angular/angularfire/blob/master/docs/install-and-setup.md
+
+https://github.com/angular/angularfire/blob/master/docs/firestore/collections.md
+
+https://github.com/angular/angularfire/blob/master/docs/auth/getting-started.md
