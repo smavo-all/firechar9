@@ -41,3 +41,9 @@ https://github.com/angular/angularfire/blob/master/docs/install-and-setup.md
 https://github.com/angular/angularfire/blob/master/docs/firestore/collections.md
 
 https://github.com/angular/angularfire/blob/master/docs/auth/getting-started.md
+
+
+## Autentificacion con Google y Twitter
+https://firebase.google.com/docs/auth/web/google-signin?authuser=2
+
+https://firebase.google.com/docs/auth/web/twitter-login?authuser=2
