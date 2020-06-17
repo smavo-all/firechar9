@@ -6,7 +6,7 @@ import {
 } from '@angular/fire/firestore';
 
 import { Mensaje } from '../interface/mensaje.interface';
-import { map } from 'rxjs/operators';
+import { map, timeoutWith } from 'rxjs/operators';
 
 
 import { AngularFireAuth } from '@angular/fire/auth';
@@ -38,10 +38,17 @@ export class ChatService {
     }
   
       login( proveedor){
-        this.auth.signInWithPopup(new auth.GoogleAuthProvider());
+        
+        if( proveedor === 'google'){
+          this.auth.signInWithPopup(new auth.GoogleAuthProvider());
+        } else {
+          this.auth.signInWithPopup(new auth.TwitterAuthProvider());
+        }
+       
       }
 
       logout(){
+        this.usuario = {};
         this.auth.signOut();
       }
 
