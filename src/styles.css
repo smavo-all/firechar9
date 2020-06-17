@@ -22,8 +22,13 @@
     height:270px;
     /*background:gray;*/
     padding: 5px;
+
   }
   
+ .app-mensaje {
+    background-color: rgb(228, 221, 212);
+    
+  }
   
   /* Animaciones */
   .animated {
